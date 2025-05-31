@@ -127,3 +127,8 @@ License & Disclaimer
 Contact
 -------
 For issues, share error details, screenshots, or any other problems, contact me on my email: Dhruvkumar2326@gmail.com
+
+
+SCREENSHOTS:
+![image](https://github.com/user-attachments/assets/e6630ea9-b5af-42b1-958e-17cb826b319f)
+![image](https://github.com/user-attachments/assets/e2bb6bfe-f65b-4250-9944-94c46b7a8b57)
