@@ -1,0 +1,86 @@
+
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Parkinson's Disease Prediction Report}
+\rhead{\today}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Large Parkinson's Disease Prediction Report} \\
+    \vspace{0.2cm}
+    Generated on 2025-05-27 10:30:47
+\end{center}
+
+\section*{Prediction Results}
+
+\textbf{Prediction}: Parkinson's Detected \\
+\vspace{0.2cm}
+\textbf{Input Data}: \\
+\begin{tabular}{lr}
+\toprule
+Feature & Value \\
+\midrule
+MDVP:Fo(Hz) & 1.0000 \\ 
+MDVP:Fhi(Hz) & 1.0000 \\ 
+MDVP:Flo(Hz) & 1.0000 \\ 
+MDVP:Jitter(%) & 1.0000 \\ 
+MDVP:Jitter(Abs) & 1.0000 \\ 
+MDVP:RAP & 1.0000 \\ 
+MDVP:PPQ & 1.0000 \\ 
+Jitter:DDP & 1.0000 \\ 
+MDVP:Shimmer & 1.0000 \\ 
+MDVP:Shimmer(dB) & 1.0000 \\ 
+Shimmer:APQ3 & 1.0000 \\ 
+Shimmer:APQ5 & 1.0000 \\ 
+MDVP:APQ & 1.0000 \\ 
+Shimmer:DDA & 1.0000 \\ 
+NHR & 1.0000 \\ 
+HNR & 1.0000 \\ 
+RPDE & 1.0000 \\ 
+DFA & 1.0000 \\ 
+spread1 & 1.0000 \\ 
+spread2 & 1.0000 \\ 
+D2 & 1.0000 \\ 
+PPE & 1.0000 \\ 
+
+\bottomrule
+\end{tabular}
+
+\section*{Feature Importance}
+\begin{tabular}{lr}
+\toprule
+Feature & Importance \\
+\midrule
+PPE & 0.1419 \\ 
+MDVP:Fo(Hz) & 0.1036 \\ 
+spread1 & 0.1006 \\ 
+MDVP:Flo(Hz) & 0.0794 \\ 
+Jitter:DDP & 0.0621 \\ 
+MDVP:Fhi(Hz) & 0.0536 \\ 
+spread2 & 0.0487 \\ 
+NHR & 0.0396 \\ 
+MDVP:Jitter(Abs) & 0.0382 \\ 
+MDVP:RAP & 0.0363 \\ 
+
+\bottomrule
+\end{tabular}
+
+\section*{Model Parameters}
+\begin{itemize}
+    \item Model: Random Forest Classifier
+    \item Number of Estimators: 100
+    \item Random State: 42
+    \item Preprocessing: StandardScaler (zero mean, unit variance)
+\end{itemize}
+
+\end{document}
